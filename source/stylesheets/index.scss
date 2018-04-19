@@ -1,14 +1,11 @@
-$header_color: red;
 .header {
     .jumbotron {
-        background-image: url("../../assets/images/header2-edited.png");
-        background-size: cover; // height: 550px;
+        background-image: url("../../assets/images/header-edited.png");
+        background-size: cover;
+        margin-bottom: 0px;
+        height: 85%;
     }
     .jumbotron {
-        h1 {
-            margin-top: 100px;
-            margin-bottom: 100px;
-        }
         span {
             padding-top: 2px;
             padding-left: 20px;
@@ -20,21 +17,45 @@ $header_color: red;
 }
 
 .body {
+    $black: #373D49;
+    $light-blue: #90AFC5;
+    $text-white: #F2F1EF;
+    $club-day-booth-image: url("../../assets/images/booth.jpg");
+    $robotics-team-sketch: url("../../assets/images/robot-board.jpg");
+    $machine-learning-lecture-image: url("../../assets/images/lecture.jpg");
+    
+    .about-us {
+        color: $text-white;
+        background-color: $light-blue;
+    }
+    .about-us {
+        h3 {
+            margin-top: 30px;
+        }
+        blockquote {
+            border-left: none;
+        }
+    }
     .info-box {
         blockquote {
-          margin: 30px;
-          padding: 30px;
+            margin: 30px;
+            padding: 30px;
+            border-left: none;
         }
         .col-md-6 {
             height: 400px;
         }
-        .text {
-          // margin-bottom: 50px;
-        }
         .photo {
-            // background-color: gray;
-            background-image: url("../../assets/images/header1.jpg");
-            background-size: cover; // height: 550px;
+            background-size: cover;
+        }
+        #image-box-1 {
+            background-image: $club-day-booth-image;
+        }
+        #image-box-2 {
+            background-image: $robotics-team-sketch;
+        }
+        #image-box-3 {
+            background-image: $machine-learning-lecture-image;
         }
     }
 }
