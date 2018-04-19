@@ -1,4 +1,4 @@
-# Polafide :: Find Vegetarian Eats
+# SRJC CS Club :: Website
 
 ######
 
