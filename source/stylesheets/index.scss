@@ -17,13 +17,16 @@
 }
 
 .body {
-    $black: #373D49;
+    // Color Sass Variables
+    $grey-black: #373D49;
     $light-blue: #90AFC5;
     $text-white: #F2F1EF;
+
+    // Photo Paths
     $club-day-booth-image: url("../../assets/images/booth.jpg");
     $robotics-team-sketch: url("../../assets/images/robot-board.jpg");
     $machine-learning-lecture-image: url("../../assets/images/lecture.jpg");
-    
+
     .about-us {
         color: $text-white;
         background-color: $light-blue;
