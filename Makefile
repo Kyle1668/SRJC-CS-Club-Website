@@ -6,12 +6,16 @@
 
 # Runs the python web server. The web page will open in localhost 8000.
 run:
-	python -m http.server
+	@echo "Starting Web Server"
+	@echo "You can view the page in your browser at http://localhost:8000/ \n"
+	@python -m http.server
 
 # Will compile any changes in the index.scss (sass) file to index.css.
 sass:
+	@echo "Will compile any changes in the index.scss (sass) file to index.css"
 	sass source/stylesheets/index.scss:source/stylesheets/index.css
 
-# Will run a sass server that will auto compile any changes in the index.scss (sass) file to index.css.
+# Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css.
 sass-watch:
+	@echo "Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css."
 	sass --watch source/stylesheets/index.scss:source/stylesheets/index.css
