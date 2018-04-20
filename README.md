@@ -34,6 +34,5 @@ Interested in contributing?
 
 ### Links
 
-* [Kyle O'Brien Linkedin](www.linkedin.com/in/kyle1668)
 * [Sass Tutorial](https://www.tutorialspoint.com/sass/index.htm)
 * [Github Tutorial](https://guides.github.com/activities/hello-world/)
