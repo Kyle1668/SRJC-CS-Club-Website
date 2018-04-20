@@ -4,7 +4,7 @@
 # To run a task, type in the root project directory "make X" where X is the name of the tast.
 # EX: "make run" or "make sass"
 
-# Runs the python web server. The web page will open in localhost 8000.
+# Runs the python web server. The web page will open in localhost 8000. Requires Python 3.
 run:
 	@echo "Starting Web Server"
 	@echo "You can view the page in your browser at http://localhost:8000/ \n"
