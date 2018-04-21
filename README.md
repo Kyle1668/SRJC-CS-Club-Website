@@ -25,7 +25,7 @@ Here are the steps to begin contributing.
     - [Python (Ideally Python 3)](https://www.python.org/downloads/)
     - A text editor such as [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/), or [VSCode](https://code.visualstudio.com/).
 
-4. Clone the Github repository locally. Make a new branch with the name the same as or similar to the issue name. Each branch name should start with yoru first name. EX: `kyle-fix-bootstrap-header`.
+4. Clone the Github repository locally. Make a new branch with the name the same as or similar to the issue name. Each branch name should start with your first name. EX: `kyle-fix-bootstrap-header`.
 
 5. Once you're ready for your first commit, push the branch remotely and make a new pull request.
 
