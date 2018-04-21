@@ -40,8 +40,9 @@ In order to contribute, you should be familiar with at least a few of the techno
 
 1. [HTML and CSS](https://teamtreehouse.com/tracks/front-end-web-development)
 2. [Sass](https://teamtreehouse.com/library/sass-basics-2)
-3. [Git and Github](https://try.github.io/)
-4. [Terminal Commands and Make](https://teamtreehouse.com/library/console-foundations)
+3. [Bootstrap](https://teamtreehouse.com/library/bootstrap-4-basics-2)
+5. [Git and Github](https://try.github.io/)
+6. [Terminal Commands and Make](https://teamtreehouse.com/library/console-foundations)
 
 ######
 ### Make Commands
