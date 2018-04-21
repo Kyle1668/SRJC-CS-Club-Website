@@ -1,4 +1,4 @@
-# SRJC CS Club :: Website
+#  CS Club :: Website
 
 ######
 
