@@ -66,5 +66,4 @@ In order to developer easier, once the projects, we use a series of custom make 
 
 ### Links
 * [Club Website](https://kyle1668.github.io/SRJC-CS-Club-Website/)
-* [Kyle O'Brien Github](https://github.com/Kyle1668)
 * [SRJC CS Club Slack](https://srjccsc.slack.com/messages)
