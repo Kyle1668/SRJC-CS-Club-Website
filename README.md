@@ -50,6 +50,7 @@ In order to contribute, you should be familiar with at least a few of the techno
 In order to developer easier, once the projects, we use a series of custom make commands. These commands can be found in the `Makefile`. You execute each command by typing in `make x` where x is the name of the command while in the project root directory.
 * `make run` : Runs the python web server. The web page will open in localhost 8000. Requires Python 3.
 * `make run-alt` : Does the same of the regular `make-run` but supports Python 2.
+* `make docker` : Build the Docker image with the local changes.
 * `make sass` : Will compile any changes in the index.scss (sass) file to index.css.
 * `make sass-watch` : Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css.
 
