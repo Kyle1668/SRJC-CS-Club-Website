@@ -53,6 +53,16 @@ In order to developer easier, once the projects, we use a series of custom make 
 * `make sass` : Will compile any changes in the index.scss (sass) file to index.css.
 * `make sass-watch` : Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css.
 
+######
+### Contributors
+* [Kyle O'Brien](https://github.com/Kyle1668)
+* [Andrew Eljumaily](https://github.com/AndrewE1234)
+* [Juan Rios](https://github.com/jcr7467)
+* [Alexandra Miller](https://github.com/amtalantova)
+* [Carl Walker](https://github.com/TalentedTurt1e)
+* [Paul Yakovlev](https://github.com/paulyakovlev)
+* [Steven Guido](https://github.com/fuzzybear3)
+
 ### Links
 * [Club Website](https://kyle1668.github.io/SRJC-CS-Club-Website/)
 * [Kyle O'Brien Github](https://github.com/Kyle1668)
