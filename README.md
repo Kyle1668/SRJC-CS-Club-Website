@@ -1,4 +1,4 @@
-# SRJC CS Club :: Website
+#  CS Club :: Website
 
 ######
 
@@ -50,10 +50,20 @@ In order to contribute, you should be familiar with at least a few of the techno
 In order to developer easier, once the projects, we use a series of custom make commands. These commands can be found in the `Makefile`. You execute each command by typing in `make x` where x is the name of the command while in the project root directory.
 * `make run` : Runs the python web server. The web page will open in localhost 8000. Requires Python 3.
 * `make run-alt` : Does the same of the regular `make-run` but supports Python 2.
+* `make docker` : Build the Docker image with the local changes.
 * `make sass` : Will compile any changes in the index.scss (sass) file to index.css.
 * `make sass-watch` : Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css.
 
+######
+### Contributors
+* [Kyle O'Brien](https://github.com/Kyle1668)
+* [Andrew Eljumaily](https://github.com/AndrewE1234)
+* [Juan Rios](https://github.com/jcr7467)
+* [Alexandra Miller](https://github.com/amtalantova)
+* [Carl Walker](https://github.com/TalentedTurt1e)
+* [Paul Yakovlev](https://github.com/paulyakovlev)
+* [Steven Guido](https://github.com/fuzzybear3)
+
 ### Links
 * [Club Website](https://kyle1668.github.io/SRJC-CS-Club-Website/)
-* [Kyle O'Brien Github](https://github.com/Kyle1668)
 * [SRJC CS Club Slack](https://srjccsc.slack.com/messages)
