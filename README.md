@@ -22,7 +22,8 @@ Here are the steps to begin contributing.
     - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
     - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
     - [Sass](https://sass-lang.com/install)
-    - [Python (Ideally Python 3)](https://www.python.org/downloads/)
+    - [Python](https://www.python.org/downloads/)
+    - [Docker](https://docs.docker.com/install/)
     - A text editor such as [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/), or [VSCode](https://code.visualstudio.com/).
 
 4. Clone the Github repository locally. Make a new branch with the name the same as or similar to the issue name. Each branch name should start with your first name. EX: `kyle-fix-bootstrap-header`.
@@ -48,11 +49,11 @@ In order to contribute, you should be familiar with at least a few of the techno
 ### Make Commands
 
 In order to developer easier, once the projects, we use a series of custom make commands. These commands can be found in the `Makefile`. You execute each command by typing in `make x` where x is the name of the command while in the project root directory.
-* `make run` : Runs the python web server. The web page will open in localhost 8000. Requires Python 3.
-* `make run-alt` : Does the same of the regular `make-run` but supports Python 2.
-* `make docker` : Build the Docker image with the local changes.
+* `make run` : Runs the python web server via the Docker image. The web page will open in localhost 8000.
 * `make sass` : Will compile any changes in the index.scss (sass) file to index.css.
 * `make sass-watch` : Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css.
+* `make docker-build` : Build an image from the Dockerfile. Necessary to run before running `make run`.
+* `make docker-stop` : Stops the running Docker container. Good practice to do when not developing.
 
 ######
 ### Contributors
