@@ -52,7 +52,7 @@ In order to developer easier, once the projects, we use a series of custom make 
 * `make run` : Runs the python web server via the Docker image. The web page will open in localhost 8000.
 * `make sass` : Will compile any changes in the index.scss (sass) file to index.css.
 * `make sass-watch` : Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css.
-* `make docker-build` : Build an image from the Dockerfile. Necessary to run before running `make run`
+* `make docker-build` : Build an image from the Dockerfile. Necessary to run before running `make run`.
 * `make docker-stop` : Stops the running Docker container. Good practice to do when not developing.
 
 ######
