@@ -9,4 +9,4 @@ RUN python -V
 
 EXPOSE 8000
 
-CMD ["make", "run"]
+CMD ["python", "-m", "http.server"]

@@ -8,7 +8,7 @@
 run:
 	@echo "Starting Web Server"
 	@echo "You can view the page in your browser at http://localhost:8000/ \n"
-	@python -m http.server
+	docker run -t -p 8000:8000 --rm cs-club-site
 
 # Will compile any changes in the index.scss (sass) file to index.css.
 sass:
@@ -19,3 +19,13 @@ sass:
 sass-watch:
 	@echo "Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css."
 	sass --watch source/stylesheets/index.scss:source/stylesheets/index.css
+
+docker-build:
+	docker build -t cs-club-site .
+
+docker-end:
+	@echo "Closing. Disregard any error messages you see."
+	@docker kill `docker ps -a -q  --filter ancestor=cs-club-site`
+	@echo "Docker container closed"
+	@echo "You can run 'docker ps' to test"
+	@echo
