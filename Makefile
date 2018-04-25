@@ -9,6 +9,21 @@ run:
 	@echo "Starting Web Server"
 	@echo "You can view the page in your browser at http://localhost:8000/ \n"
 	docker run -t -p 8000:8000 --rm cs-club-site
+	@echo "Be sure to run 'make docker-end' when you're done."
+
+# Build an image from the Dockerfile
+docker-build:
+	@echo "Building an image from the Dockerfile"
+	docker build -t cs-club-site .
+	@echo "Docker image built. You can now run it with 'make run'"
+
+# Kills the running Docker container. Good practice to do when not developing.
+docker-end:
+	@echo "Closing. This may take a moment."
+	@docker stop `docker ps -a -q  --filter ancestor=cs-club-site`
+	@echo "Docker container closed"
+	@echo "You can run 'docker ps' to test"
+	@echo
 
 # Will compile any changes in the index.scss (sass) file to index.css.
 sass:
@@ -20,12 +35,3 @@ sass-watch:
 	@echo "Will run a sass process that will auto compile any changes in the index.scss (sass) file to index.css."
 	sass --watch source/stylesheets/index.scss:source/stylesheets/index.css
 
-docker-build:
-	docker build -t cs-club-site .
-
-docker-end:
-	@echo "Closing. Disregard any error messages you see."
-	@docker kill `docker ps -a -q  --filter ancestor=cs-club-site`
-	@echo "Docker container closed"
-	@echo "You can run 'docker ps' to test"
-	@echo
