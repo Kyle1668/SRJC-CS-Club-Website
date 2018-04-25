@@ -8,7 +8,7 @@
 run:
 	@echo "Starting Web Server"
 	@echo "You can view the page in your browser at http://localhost:8000/ \n"
-	docker run -t -p 8000:8000 --rm cs-club-site
+	docker run -t -p 8000:8000 -v $(shell pwd):/usr/app --rm cs-club-site
 	@echo "Be sure to run 'make docker-end' when you're done."
 
 # Build an image from the Dockerfile
