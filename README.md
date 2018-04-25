@@ -49,7 +49,7 @@ In order to contribute, you should be familiar with at least a few of the techno
 
 In order to make development easier, one the project, we use a series of custom make commands. These commands can be found in the `Makefile`. You execute each command by typing in `make x` where x is the name of the command while in the project root directory.
 
-(**NOTE**: `make` is not recognized by the default Windows Command Prompt or PowerShell. For a native Windows solution, please see the "Make Commands (Windows)" section bellow)
+(**NOTE**: `make` is not recognized by the default Windows Command Prompt or PowerShell. For a native Windows solution, please see the [Make Commands (Windows)](https://github.com/Kyle1668/SRJC-CS-Club-Website/tree/andrew-readme-windows#make-commands-windows) section bellow)
 
 * `make run` : Runs the python web server. The web page will open in localhost 8000. Requires Python 3.
 * `make run-alt` : Does the same of the regular `make-run` but supports Python 2.
@@ -70,7 +70,8 @@ While Windows does have a native Makefile utility, called NMAKE, it can not be r
 
 3. Once the Developer Command Prompt is open, simply type `nmake` in replace of `make` to execute any Makefile command, including the ones listed above.
 
-**IMPORTANT**: Though NMAKE can open Makefiles created for Unix-like operating systems (MacOS, Linux, etc.), Command Prompt and the Unix command line can often diver in both formating and commands. This can, in turn,can cause numerous errors, so please keep this in mind when using NMAKE. If you are looking for a something a bit "deeper", there are environments that provide UNIX-like commands (including make) for Windows, such as [Cygwin](https://www.cygwin.com/), which can also prove to be very powerfull. 
+**IMPORTANT**: Though NMAKE can open Makefiles created for Unix-like operating systems (MacOS, Linux, etc.), Command Prompt and the Unix command line can often diver in both formating and commands. This can, in turn,
+cause numerous errors, so please keep this in mind when using NMAKE. If you are looking for a something a bit "deeper", there are environments that provide UNIX-like commands (including make) for Windows, such as [Cygwin](https://www.cygwin.com/), which can also prove to be very powerfull. 
 
 ######
 ### Contributors
