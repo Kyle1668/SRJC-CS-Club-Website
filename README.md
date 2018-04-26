@@ -23,6 +23,7 @@ Here are the steps to begin contributing.
     - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
     - [Sass](https://sass-lang.com/install)
     - [Python (Ideally Python 3)](https://www.python.org/downloads/)
+    - [Docker](https://docs.docker.com/install/)
     - A text editor such as [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/), or [VSCode](https://code.visualstudio.com/).
 
 4. Clone the Github repository locally. Make a new branch with the name the same as or similar to the issue name. Each branch name should start with your first name. EX: `kyle-fix-bootstrap-header`.
