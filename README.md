@@ -1,4 +1,4 @@
-#  CS Club :: Website
+
 
 ######
 
