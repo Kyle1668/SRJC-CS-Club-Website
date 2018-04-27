@@ -1,8 +1,8 @@
-#  CS Club :: Website
+
 
 ######
 
-This repo is for the official Santa Rosa Junior College Computer Science Club website. Kyle O'Brien is the project manager for this project. We're open to all SRJC students who're interested in contributing. We purposely opted to use only basic web technologies that the barrier of entry is minimal and time commitment. We also use a Git workflow of issues, pull requests, and code review.
+po is for the official Santa Rosa Junior College Computer Science Club website. Kyle O'Brien is the project manager for this project. We're open to all SRJC students who're interested in contributing. We purposely opted to use only basic web technologies that the barrier of entry is minimal and time commitment. We also use a Git workflow of issues, pull requests, and code review.
 
 ######
 
