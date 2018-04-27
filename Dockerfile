@@ -1,6 +1,5 @@
 # Sets new base images
-FROM ubuntu:16.04
-FROM python:3
+FROM python:3.6.5-alpine3.7
 
 # Copies files from the local project into the docker container's file system.
 COPY . /usr/app
